@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 16 19:50:23 2025
-
-@author: pv
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Script pour résoudre l'équation de Poisson 2D
--u_xx - u_yy = f(x,y) sur [0,1]x[0,1]
-avec u=0 sur les bords.
-Méthode des différences finies pour N=4.
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 
